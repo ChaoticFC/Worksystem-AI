@@ -8,7 +8,7 @@ class Config:
     """Application configuration"""
     
     # OpenAI Configuration
-    OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+    OPENAI_API_KEY = os.getenv("sk-...NDwA")
     OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-4")
     OPENAI_TEMPERATURE = 0.7
     OPENAI_MAX_TOKENS = 2000
